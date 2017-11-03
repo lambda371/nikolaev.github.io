@@ -1,0 +1,148 @@
+@media screen and (max-width: 1152px) {
+
+.mark-a {
+	width: 350px;
+    height: 200px;
+}
+.mark-a img {
+	width: 80px;
+}
+.front {
+	font-size: 25px;
+	width: 350px;
+}
+.ppl img {
+	width: 180px;
+}
+.clients-text span {
+	font-size: 30px;
+}
+}
+@media screen and (max-width: 1152px) {
+	#particles-js {
+		height: 50vh;
+	}
+	.header, .clients-wrap, .marketing-wrap {
+		height: 50vh;
+	}
+	#m-s {
+		height: calc(100% + 550px);
+	}
+	footer {
+		height: 40vh;
+	}
+	#pixie {
+		top: -50vh;
+	}
+}
+@media screen and (max-width: 768px) {
+	#particles-js {
+		height: 70vh;
+	}
+	.header, .clients-wrap, .marketing-wrap {
+		height: 70vh;
+	}
+	#pixie {
+		top: -70vh;
+	}
+	.phone-hidden {
+		display: none;
+	}
+	.phone-clients-vs {
+		margin: 0 auto;
+	}
+	.mark-a {
+		width: 250px;
+    	height: 200px;
+	}
+	.front {
+		font-size: 18px;
+    	width: 250px;
+	}
+	footer h2 {
+		font-size: 30px;
+	}
+	#m-m h2	{
+		font-size: 30px;
+	}
+	.info-2 h1 {
+		font-size: 30px;
+	}
+	.icon-contact img {
+    	width: 100px;
+	}
+	.text-contact a {
+    	font-size: 22px;
+	}
+	.phone-visible {
+		display: flex;
+	}
+}
+@media screen and (max-width: 767px) {
+	.phone-visible {
+		display: flex;
+	}
+	#menu {
+    	display: flex;
+    	flex-direction: column;
+	}
+	#particles-js {
+		height: 100vh;
+	}
+	.header, .clients-wrap {
+		height: 100vh;
+	}
+	#pixie {
+    	top: -100vh;
+    	right: -10vh;
+	}
+	.clients-text span {
+    	font-size: 23px;
+	}
+	.change_content {
+    	font-size: 22px;
+    	padding-left: 15px;
+    	padding-right: 15px;
+	}
+	.marketing-wrap {
+		height: 200vh;
+	}
+	footer {
+		height: 100vh;
+	}
+	.foot-flex {
+		display: block;
+	}
+	.icon-contact img {
+    	width: 80px;
+	}
+	.text-contact a {
+    	font-size: 16px;
+	}
+	.contact-block {
+    	padding: 25px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#pixie {
+    	right: 0vh;
+	}
+	.clients-text span {
+    	font-size: 18px;
+	}
+	.mark-a {
+    	width: 65%;
+    	height: 180px;
+    	padding-top: 0;
+	}
+	.front {
+		width: 180px;
+	}
+	footer {
+    	height: 100%;
+	}
+	.marketing-wrap {
+    	height: 100%;
+	}
+}
